@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="科技感虚拟头像">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="72%">
+      <stop offset="0%" stop-color="#13213d"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#22d3ee" stroke-opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <rect width="512" height="512" fill="url(#grid)"/>
+
+  <circle cx="256" cy="256" r="198" fill="none" stroke="url(#neon)" stroke-opacity="0.4" stroke-width="2" stroke-dasharray="5 11"/>
+  <circle cx="256" cy="256" r="188" fill="none" stroke="url(#neon)" stroke-opacity="0.18" stroke-width="1.5"/>
+
+  <path d="M256 88c92 0 158 66 158 154 0 60-32 106-72 130l-34-48c-16 10-34 16-52 16s-36-6-52-16l-34 48c-40-24-72-70-72-130 0-88 66-154 158-154z"
+        fill="rgba(129,140,248,0.13)" stroke="url(#neon)" stroke-width="5" stroke-linejoin="round"/>
+
+  <path d="M186 232c28-20 66-20 94 0 26 19 26 49 0 68-28 20-66 20-94 0-26-19-26-49 0-68z"
+        fill="#020617" stroke="#22d3ee" stroke-width="4"/>
+  <circle cx="256" cy="262" r="11" fill="#22d3ee">
+    <animate attributeName="opacity" values="0.55;1;0.55" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <path d="M196 356h120" stroke="url(#neon)" stroke-width="4" stroke-linecap="round" stroke-opacity="0.75"/>
+  <path d="M216 390h80" stroke="url(#neon)" stroke-width="3" stroke-linecap="round" stroke-opacity="0.45"/>
+</svg>
