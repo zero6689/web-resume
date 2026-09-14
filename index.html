@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 反爬 / 隐私：不希望被搜索引擎与聚合站点收录（发 HR 用直链即可） -->
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
+    <meta name="referrer" content="no-referrer" />
+    <!--
+      站点自身没有任何跨域请求、没有内联脚本、没有第三方统计。
+      腾讯云那边由 nginx 下发同名 CSP 响应头；GitHub Pages 改不了响应头，
+      只能靠这个 meta 兜底（frame-ancestors 在 meta 里会被忽略，腾讯云侧用响应头管）。
+    -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; img-src 'self' data:; media-src 'self'; font-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self' https://whitewolfstack.com; base-uri 'none'; form-action 'self'; object-src 'none'"
+    />
+    <title>张晓晴 · 数字化运营 / 流程优化 · 求职简历</title>
+    <meta
+      name="description"
+      content="张晓晴，求职意向：数字化运营 / 流程优化（也可投 AI 应用助理 / AI 产品助理）。9 年一线经验，主导内网工单自动化（报单实时监测 + 每日汇总自动推送，稳定运行数月），独立完成脚本投放与 APK / 网页搭建。"
+    />
+    <meta name="theme-color" content="#000000" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <script type="module" crossorigin src="./assets/index-7EC640oF.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CyxgOv81.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
